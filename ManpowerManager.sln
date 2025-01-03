@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManpowerManager.Api", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManpowerManager.Shared", "src\ManpowerManager.Shared\ManpowerManager.Shared.csproj", "{82D3CB36-5C8B-4E64-A00E-EE0D3D263823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManpowerManager.Client", "src\ManpowerManager.Client\ManpowerManager.Client.csproj", "{43F5E0A0-968E-42CA-A92F-AA973572C372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{82D3CB36-5C8B-4E64-A00E-EE0D3D263823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82D3CB36-5C8B-4E64-A00E-EE0D3D263823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82D3CB36-5C8B-4E64-A00E-EE0D3D263823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F5E0A0-968E-42CA-A92F-AA973572C372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F5E0A0-968E-42CA-A92F-AA973572C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F5E0A0-968E-42CA-A92F-AA973572C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F5E0A0-968E-42CA-A92F-AA973572C372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{44B97BAB-D002-4A1F-86B3-35F9453F3211} = {F089F7FF-7A5B-4551-99FD-44BE54D0ADBF}
 		{82D3CB36-5C8B-4E64-A00E-EE0D3D263823} = {F089F7FF-7A5B-4551-99FD-44BE54D0ADBF}
+		{43F5E0A0-968E-42CA-A92F-AA973572C372} = {F089F7FF-7A5B-4551-99FD-44BE54D0ADBF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F261481-8ADA-4BD6-B895-910DE0EE39DE}
